@@ -1,0 +1,25 @@
++--------------------------------------------------------------------------------------------+
+| Database Schema for Student Library scenario              				     |
++--------------------------------------------------------------------------------------------+
+| students (student_id : integer, student_name : string)                                     |
+|                                                                               	     |
+| memberships (membership_id : integer, student_id : integer)                                |
+|                                                                                            |
+| books (book_id : integer, book_name : string, book_author : string)                        |
+|                                                                                            |
+| issues (issue_id : integer, issue_date : date, membership_id : integer, book_id : integer) | 
++--------------------------------------------------------------------------------------------+
+
+
+For the above schema, perform the following :
+
+1) Create the tables with the appropriate integrity constraints.
+2) Insert records in each of the tables.
+3) List all the student names with their membership details.
+4) List all the issues for the current date with student and book names.
+5) List the details of the students who borrowed book whose author is 'J. K. Rowling'.
+6) Give a count of how many books have been bought by each student.
+7) Give a list of books taken by student with student_id as 2014.
+8) List the details of books issued as of today.
+9) Create a view which lists out the issue_id, issue_date, student_name, book_name.
+10) Create a view which lists the daily issues date wise for the last one week.

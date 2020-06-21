@@ -1,0 +1,23 @@
++-----------------------------------------------------------------------------------------------------------+
+| Database Schema for a Customer Sale scenario                                                              |
++-----------------------------------------------------------------------------------------------------------+
+| customers (customer_id : integer, customer_name : string)                                                 |
+|                                                                                                           |
+| items (item_id : integer, item_name : string, price : integer)                                            |
+|                                                                                                           |
+| sales (bill_no : integer, bill_date : date, customer_id : integer, item_id : integer, quantity : integer) |
++-----------------------------------------------------------------------------------------------------------+
+
+
+For the above schema, perform the following :
+
+1) Create the tables with the appropriate integrity constraints.
+2) Insert records in each of the tables.
+3) List all the bills for the current date with the customer names and item numbers.
+4) List the total bill details with the quantity sold, price of the item and the final amount.
+5) List the details of the customer who have bought a product which has a price > 20.
+6) Give a count of how many products have been bought by each customer.
+7) Give a list of products bought by a customer having customer_id as 5.
+8) List the items sold and their quantity as of today.
+9) Create a view which lists out the bill_no, bill_date, customer_id, item_id, price, quantity, amount.
+10) Create a view which lists the daily sales date wise for the last one week.

@@ -1,0 +1,25 @@
++----------------------------------------------------------------------------+
+| Database Schema for a Student Laboratory scenario		       	     |
++----------------------------------------------------------------------------+
+| classes (class_id : integer, class_name : string)			     |
+|									     |
+| labs (lab_id : integer, lab_name : string, class_id : integer)	     |
+|									     |
+| students (student_id : integer, student_name : string, class_id : integer) |
+|									     |
+| allotments (student_id : integer, lab_id : integer, day_of_week : string)  |
++----------------------------------------------------------------------------+
+
+
+For the above schema, perform the following :
+
+1) Create the tables with the appropriate integrity constraints.
+2) Insert records in each of the tables.
+3) List all the allotments with the student_name, class_name, lab_name and day_of_week.
+4) List the total no.of lab allotments day wise.
+5) Give a count of labs for class 'Computer Science'.
+6) List the allotment details for the student with student_id as 5.
+7) Give a count of students in each of the labs.
+8) Give a count of students in each of the classes.
+9) Create a view which lists out the student_id, student_name, class_id, lab_id and day_of_week.
+10) Create a view which lists the labs that occur on "Thursday".

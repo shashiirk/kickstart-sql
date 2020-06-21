@@ -1,0 +1,25 @@
++------------------------------------------------------------------------------------------------+
+| Database Schema for a Video Library scenario							 |
++------------------------------------------------------------------------------------------------+
+| customers (customer_id : integer, customer_name : string)					 |
+|												 |
+| memberships (membership_id : integer, customer_id : integer)					 |
+|												 |
+| cassettes (cassette_id : integer, cassette_name : string, cassette_language : string)          |
+|												 |
+| issues (issue_id : integer, issue_date : date, membership_id : integer, cassette_id : integer) |
++------------------------------------------------------------------------------------------------+
+
+
+For the above schema, perfrom the following :
+
+1) Create the tables with the appropriate integrity constraints.
+2) Insert records in each of the tables.
+3) List all the customers with their membership details.
+4) List all the issues for the current date with the customer names and cassette names.
+5) List the details of the customer who has bought the cassette with the title "Manoharudu".
+6) Give a count of how many cassettes have been borrowed by each customer.
+7) Give a list of cassettes bought by customer with membership_id as 2541.
+8) List the sales of cassettes issued as of today.
+9) Create a view which lists out the issue_id, issue_date, customer_name, cassette_name.
+10) Create a view which lists the issues date wise for the last one week.

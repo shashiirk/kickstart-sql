@@ -1,0 +1,27 @@
++-------------------------------------------------------------------------------------------------------------+
+| Database Schema for a Employee Pay scenario                                  				      |
++-------------------------------------------------------------------------------------------------------------+
+| employees (employee_id : integer, employee_name : string)						      |
+|													      |
+| departments (department_id : integer, department_name : string)					      |
+|								    					      |
+| paydetails (employee_id : integer, department_id : integer, basic_salary : integer, deductions : integer,   |
+|             additions : integer, date_of_join : date)                                                       |
+|													      |
+| payrolls (employee_id : integer, pay_date : date)							      |
++-------------------------------------------------------------------------------------------------------------+
+
+
+For the above schema, perform the following :
+
+1) Create the tables with the appropriate integrity constraints.
+2) Insert records in each of the tables.
+3) List the employee details department wise.
+4) List all the employees who joined after particular date.
+5) List the details of employees whose basic salary is between 30000 and 45000.
+6) Give a count of how many employees are working in each department.
+7) List the employees whose netsalary > 45000.
+8) List the details of an employee having employee_id as 4.
+9) Create a view which lists out the employee_id, employee_name, department_name, basic_salary, deductions, additions
+   and netsalary.
+10) Create a view which lists out the employee_id, employee_name and netsalary.
